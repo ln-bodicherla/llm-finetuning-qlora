@@ -1,54 +1,72 @@
-# Python
+
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-*.egg-info/
-dist/
-build/
-*.egg
-
-# Virtual environments
-venv/
-.venv/
-env/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
+!.env.example
+!.env.sample
+.build/
+.cache/
 .DS_Store
-Thumbs.db
-
-# Model weights and checkpoints
-outputs/
-*.ckpt
-*.safetensors
+.eggs/
+.env
+.env.*
+.env.local
+.idea/
+.swiftpm/
+.venv/
+.vscode/
+*.app
 *.bin
+*.ckpt
+*.db
+*.db-shm
+*.db-wal
+*.egg
+*.egg-info/
+*.ipa
+*.jsonl
+*.key
+*.log
+*.parquet
+*.pem
 *.pt
 *.pth
-models/
-
-# Hugging Face cache
-.cache/
-huggingface/
-
-# WandB
-wandb/
-
-# Environment
-.env
-.env.local
-
-# Logs
-*.log
-runs/
-
+*.py[cod]
+*.pyc
+*.safetensors
+*.secret
+*.so
+*.sqlite
+*.sqlite3
+*.swo
+*.swp
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*~
+*$py.class
+# Build
 # Data
+# Databases
+# Dependencies
+# Environment
+# Hugging Face cache
+# IDE
+# Logs
+# Model weights and checkpoints
+# OS
+# Python
+# Secrets
+# Virtual environments
+# WandB
+build/
+credentials*
 data/
-*.jsonl
-*.parquet
+DerivedData/
+dist/
+env/
+huggingface/
+models/
+node_modules/
+outputs/
+runs/
+Thumbs.db
+venv/
+wandb/
