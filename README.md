@@ -62,7 +62,7 @@ A complete pipeline for parameter-efficient fine-tuning of large language models
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/llm-finetuning-qlora.git
+git clone https://github.com/ln-bodicherla/llm-finetuning-qlora.git
 cd llm-finetuning-qlora
 python -m venv venv
 source venv/bin/activate
